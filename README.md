@@ -1,0 +1,1 @@
+This is my ALX project with CSS applied.
