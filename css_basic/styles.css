@@ -1,3 +1,40 @@
-h2 {
-    color: blue;
+html {
+    padding-left: 5px;
+}
+
+
+
+h1 {
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 0.3rem 0rem;
+    margin-bottom: 3rem;
+}
+
+h2, h3 {
+    color: orangered;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    column-gap: 3.5rem;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
 }
